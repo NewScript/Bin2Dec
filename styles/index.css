@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+}
+title{
+    display: none;
+}
+
+/* ------------------------------------------- */
+
+#app{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    width: 350px;
+    height: 200px;
+    background-color: cadetblue;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+legend{
+    border: 1px solid #000;
+    background-color: rgb(150, 209, 211);
+    margin: auto;
+    padding: 0 5% 0 5%;
+    color: rgb(5, 5, 59);
+    font-size: xx-large;
+}
+
+h1, #boxBinary, #boxDecimal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 5px 0px 5px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+#boxBinary, #boxDecimal{
+    flex-basis: 50%;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+#boxBinary{
+    display: flex;
+}
+
+#limit{
+    display: flex;
+    align-items: center;
+}
+
+[for='binary']{
+    margin-left: 5px;
+}
+
+#cbLimit, img{
+    cursor: pointer;
+}
+
+#binary, #decimal{
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#binary{
+    width: 192px;
+    height: 40px;
+}
+
+figure{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width:50px;
+    height:50px;
+}
+
+#decimal{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(150, 209, 211);
+    color: #000;
+}
+
+p{
+    color: #f00;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+

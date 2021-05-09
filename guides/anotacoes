@@ -1,0 +1,9 @@
+Conversão Binário -> Decimal
+
+- Dois campos, um para o usuário digitar, outro para exibir a Conversão
+- O usuário poderá digitar apenas 0 e 1s
+- O usuário poderá digitar até 8 digitos
+- Alertar o usuário caso descumpra as regras
+- Matrizes não devem ser utilizadas para armazenar os dígitos binários inseridos pelo usuário
+- Uma única função deve realizar a conversão
+- Implementar a possibilidade de digitar mais dígitos
