@@ -42,7 +42,7 @@ h1, #boxBinary, #boxDecimal{
 }
 
 h1{
-    margin: 5px 0px 5px 0px;
+    margin: 5px auto 5px auto;
     font-size: 12px;
     text-transform: uppercase;
     flex-grow: 1;
@@ -51,7 +51,7 @@ h1{
 #boxBinary, #boxDecimal{
     flex-basis: 50%;
     width: 250px;
-    margin-bottom: 5px;
+    margin: 0px auto 5px auto;
 }
 
 #boxBinary{
