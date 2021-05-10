@@ -42,7 +42,8 @@ h1, #boxBinary, #boxDecimal{
 }
 
 h1{
-    display: block;
+    width: 100%;
+    text-align: center;
     text-transform: uppercase;
     font-size: 12px;
     margin: 5px auto 5px auto;
