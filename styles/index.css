@@ -45,11 +45,11 @@ h1{
     margin: 5px auto 5px auto;
     font-size: 12px;
     text-transform: uppercase;
-    flex-grow: 1;
+    flex-basis: 10%;
 }
 
 #boxBinary, #boxDecimal{
-    flex-basis: 50%;
+    flex-basis: 45%;
     width: 250px;
     margin: 0px auto 5px auto;
 }
